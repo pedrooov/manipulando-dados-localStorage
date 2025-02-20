@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', system-ui, -apple-system, BlinkMacSystemFont, Ubuntu, Cantarell, sans-serif;
+}
+
+body {
+    text-align: center;
+    align-items: center;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f2f2f2;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: #435373;
+    padding: 50px;
+    color: #B6C5F2;
+    border-radius: 12px;
+    box-shadow: 20px 20px #435373b6;
+    border: 2px solid #B6C5F2;
+}
+
+.container h1 {
+    margin-bottom: 10px;
+    font-size: 2.4rem;
+}
+
+form {
+    display: flex;
+    padding: 10px;
+    gap: 10px;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+input {
+    width: calc(50% - 10px);
+    border: 2px solid #B6C5F2;
+    padding: 10px;
+    background-color: #f2f2f2;
+    color: #4B75F2;
+    text-align: center;
+    border-radius: 12px;
+    color: #435373;
+}
+
+.product-input{
+    width: calc(100% - 10px); 
+    margin-bottom: 10px; 
+}
+
+button {
+    margin-top: 8px;
+    cursor: pointer;
+    color: #f2f2f2;
+    border-radius: 12px;
+    background-color: #2f6be4;
+    padding: 10px;
+    border: 2px solid #f2f2f2;
+    width: calc(50% - 10px);
+}
+
+button:hover {
+    background-color: #4B75F2;
+    color: #B6C5F2;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    margin-top: 15px;
+    color: #456EBF;
+    display: flex;
+    flex-direction: row;
+    background-color: #f2f2f2;
+    padding: 15px;
+    border-radius: 12px;
+    gap: 10px;
+    box-shadow: 6px 6px #4B75F2;
+}
+
+li button {
+    background-color: #4B75F2;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.remove-button {
+    background-color: #456EBF;
+    border: 2px solid #435373;
+}
+
+.edit-button {
+    background-color: #435373;
+    margin-left: 5px;
+    border: 2px solid #435373;
+}
+
+.edit-button:hover {
+    background-color: #435373b6;
+}
+
+@media (max-width: 340px) {
+    .container {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 550px) {
+    main {
+        margin: 40px;
+    }
+}
+

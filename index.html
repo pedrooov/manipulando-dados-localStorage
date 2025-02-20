@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de produtos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <section class="container">
+            <div>
+                <h1>Lista de Produtos</h1>
+                <form>
+                    <input type="text" id="productInput" class="product-input" placeholder="Digite um produto:">
+                    <input type="number" id="priceInput" placeholder="Digite o preço:">
+                    <input type="number" id="amountInput" placeholder="Digite a quantidade:">
+
+                    <button onclick="addProduct()">Adicionar</button>
+                    <button onclick="clearAllProducts()">Excluir</button>
+                </form>
+                <ul id="productList"></ul>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
